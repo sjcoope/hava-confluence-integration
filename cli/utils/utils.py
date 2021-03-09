@@ -5,6 +5,6 @@ def to_json(array):
 
 def handle_response(resp):
     if(resp.status_code != 200):
-        raise RuntimeError(resp.status_code + ": " + resp.text)
+        raise RuntimeError(str(resp.status_code) + ": " + resp.text)
 
     return resp.json()
