@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "program": "app.py",
-            "args": ["conf", "list-pages", "-s AG"],
+            "args": ["hava", "get-env", "-i", "6fb25a53-50ae-4175-b330-17774bd8aaef"],
             "console": "integratedTerminal"
         }
     ]

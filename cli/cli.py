@@ -1,6 +1,6 @@
 
 import click
-from cli.commands.confluence import conf
+from cli.commands import confluence, hava
 
 @click.group()
 def main():
@@ -9,4 +9,5 @@ def main():
     """
     pass
 
-main.add_command(conf)
+main.add_command(confluence.conf)
+main.add_command(hava.hava)
